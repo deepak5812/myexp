@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  deepakwebapp1:
+    image: deepakapp:v1
+    build: .
+    container_name: deepakwebc1
+    ports:
+      - 1357:80
+    restart: always
